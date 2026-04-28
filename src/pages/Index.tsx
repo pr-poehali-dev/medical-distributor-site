@@ -98,13 +98,12 @@ export default function Index() {
       {/* NAV */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-blue-100 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
-          <a href="#home" className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center shadow-md">
-              <span className="text-white font-bold text-lg leading-none" style={{ fontFamily: "Montserrat, sans-serif" }}>+</span>
-            </div>
-            <span className="font-bold text-xl text-blue-900" style={{ fontFamily: "Montserrat, sans-serif" }}>
-              МедСнаб
-            </span>
+          <a href="#home" className="flex items-center">
+            <img
+              src="https://cdn.poehali.dev/projects/86472dcd-13aa-4a9d-bb14-902749b3fd8a/bucket/32b68e0e-aaca-45f7-a2c2-3c8b239a19fa.jpg"
+              alt="Ф-Трейд"
+              className="h-10 w-auto object-contain"
+            />
           </a>
 
           <nav className="hidden md:flex items-center gap-1">
@@ -330,7 +329,7 @@ export default function Index() {
               <div className="absolute -inset-4 bg-gradient-to-tr from-blue-100 to-cyan-100 rounded-3xl" />
               <img
                 src="https://cdn.poehali.dev/projects/86472dcd-13aa-4a9d-bb14-902749b3fd8a/files/82cf9685-17ea-4eff-84c2-4b84712177bc.jpg"
-                alt="Склад МедСнаб"
+                alt="Склад Ф-Трейд"
                 className="relative rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"
               />
               <div className="absolute top-4 right-4 bg-white rounded-xl shadow-lg px-4 py-3 flex items-center gap-3">
@@ -355,7 +354,7 @@ export default function Index() {
             className="text-2xl md:text-3xl font-bold text-white text-center mb-12"
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            Почему выбирают МедСнаб
+            Почему выбирают Ф-Трейд
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
@@ -521,11 +520,12 @@ export default function Index() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
           <div className="grid md:grid-cols-4 gap-8 mb-10">
             <div className="md:col-span-2">
-              <div className="flex items-center gap-2.5 mb-4">
-                <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-blue-400 to-cyan-400 flex items-center justify-center">
-                  <span className="text-white font-bold text-lg leading-none" style={{ fontFamily: "Montserrat, sans-serif" }}>+</span>
-                </div>
-                <span className="font-bold text-xl" style={{ fontFamily: "Montserrat, sans-serif" }}>МедСнаб</span>
+              <div className="mb-4">
+                <img
+                  src="https://cdn.poehali.dev/projects/86472dcd-13aa-4a9d-bb14-902749b3fd8a/bucket/32b68e0e-aaca-45f7-a2c2-3c8b239a19fa.jpg"
+                  alt="Ф-Трейд"
+                  className="h-12 w-auto object-contain brightness-0 invert"
+                />
               </div>
               <p className="text-blue-200 text-sm leading-relaxed max-w-xs">
                 Надёжный дистрибьютор медицинского оборудования и расходных материалов с 2009 года.
@@ -555,7 +555,7 @@ export default function Index() {
           </div>
 
           <div className="border-t border-blue-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <p className="text-blue-400 text-xs">© 2024 МедСнаб. Все права защищены.</p>
+            <p className="text-blue-400 text-xs">© 2024 Ф-Трейд. Все права защищены.</p>
             <p className="text-blue-500 text-xs">ИНН: 7700000000 · ОГРН: 1090000000000</p>
           </div>
         </div>
